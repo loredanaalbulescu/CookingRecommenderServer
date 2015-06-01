@@ -4599,3 +4599,150 @@ Processing by RecipesController#index as HTML
   [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"[0m
   Rendered recipes/index.html.erb within layouts/application (1.9ms)
 Completed 200 OK in 214ms (Views: 212.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2015-06-01 23:10:10 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"
+  Rendered recipes/index.html.erb within layouts/application (69.4ms)
+Completed 200 OK in 593ms (Views: 551.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/badges.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/has_badges.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/checkins.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/plans.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/has_badges.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/badges.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/checkins.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/plans.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:11 +0300
+
+
+Started GET "/checkins" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+Processing by CheckinsController#index as HTML
+  [1m[36mCheckin Load (0.3ms)[0m  [1mSELECT "checkins".* FROM "checkins"[0m
+  Rendered checkins/index.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 222ms (Views: 198.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/badges.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/has_badges.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/recipes.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/plans.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/checkins.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/badges.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/checkins.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/has_badges.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/plans.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/recipes.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 23:10:29 +0300
