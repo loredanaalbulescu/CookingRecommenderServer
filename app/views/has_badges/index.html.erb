@@ -1,0 +1,29 @@
+<h1>Listing has_badges</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>User</th>
+      <th>Badge</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @has_badges.each do |has_badge| %>
+      <tr>
+        <td><%= has_badge.id %></td>
+        <td><%= has_badge.user_id %></td>
+        <td><%= has_badge.badge_id %></td>
+        <td><%= link_to 'Show', has_badge %></td>
+        <td><%= link_to 'Edit', edit_has_badge_path(has_badge) %></td>
+        <td><%= link_to 'Destroy', has_badge, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Has badge', new_has_badge_path %>

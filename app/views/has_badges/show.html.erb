@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @has_badge.user_id %>
+</p>
+
+<p>
+  <strong>Badge:</strong>
+  <%= @has_badge.badge_id %>
+</p>
+
+<%= link_to 'Edit', edit_has_badge_path(@has_badge) %> |
+<%= link_to 'Back', has_badges_path %>
