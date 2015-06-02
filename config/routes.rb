@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :receipe_ingredients
+
   resources :ingredients
 
   resources :plans

@@ -75,6 +75,6 @@ class CheckinsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def checkin_params
-      params.require(:checkin).permit(:description, :date_time, :picture, :user_id, :category_id)
+      params.require(:checkin).permit(:description, :date_time, :picture, :user_id, :category_id, :category_name, :ingredients)
     end
 end

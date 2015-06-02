@@ -25,5 +25,15 @@
   <%= @checkin.category_id %>
 </p>
 
+<p>
+  <strong>Category:</strong>
+  <%= @checkin.category_name %>
+</p>
+
+<p>
+  <strong>Ingredients:</strong>
+  <%= @checkin.ingredients %>
+</p>
+
 <%= link_to 'Edit', edit_checkin_path(@checkin) %> |
 <%= link_to 'Back', checkins_path %>

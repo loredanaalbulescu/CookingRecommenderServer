@@ -21,7 +21,8 @@
         <td><%= checkin.date_time %></td>
         <td><%= checkin.picture %></td>
         <td><%= checkin.user_id %></td>
-        <td><%= checkin.category_id %></td>
+        <td><%= checkin.category_name %></td>
+        <td><%= checkin.ingredients%></td>
         <td><%= link_to 'Show', checkin %></td>
         <td><%= link_to 'Edit', edit_checkin_path(checkin) %></td>
         <td><%= link_to 'Destroy', checkin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
