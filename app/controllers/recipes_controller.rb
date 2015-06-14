@@ -41,8 +41,9 @@ class RecipesController < ApplicationController
   # PATCH/PUT /recipes/1
   # PATCH/PUT /recipes/1.json
   def update
-    @recipe = Recipe.find(params[:id])
-    @recipe.update_attributes(params[:user])
+      #@recipe = Recipe.find(params[:id])
+      #@recipe.update_attributes(params[:user])
+    @recipe.update(recipe_params)
     respond_with @recipe
 
   end
@@ -63,6 +64,6 @@ class RecipesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def recipe_params
-      params.require(:recipe).permit(:name, :description, :message, :score, :category_id, :category_name, :ingredients)
+        params.require(:recipe).permit(:name, :description, :message, :score, :category_id, :category_name, :ingredients, :picture)
     end
 end
