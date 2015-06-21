@@ -12,8 +12,9 @@ class RecipesController < ApplicationController
   end
   
   def show_by_category_id
-      @recipes = Recipe.find_by_category_id(params[:category_id])
-      respond_with @recipes
+    @recipes = Recipe.find_by_category_id(params[:category_id])
+    @all = @recipes.show_by_category_id({:category_id => params[:category_id]})
+    respond_with @all
   end
 
   # GET /recipes/1
