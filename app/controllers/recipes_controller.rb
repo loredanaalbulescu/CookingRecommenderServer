@@ -10,6 +10,11 @@ class RecipesController < ApplicationController
     @recipes = Recipe.all
     respond_with @recipes
   end
+  
+  def show_by_category_id
+      @recipes = Recipe.find_by_category_id(params[:category_id])
+      respond_with @recipes
+  end
 
   # GET /recipes/1
   # GET /recipes/1.json
@@ -37,6 +42,7 @@ class RecipesController < ApplicationController
     @recipe.save
     respond_with @recipe
   end
+  
 
   # PATCH/PUT /recipes/1
   # PATCH/PUT /recipes/1.json
